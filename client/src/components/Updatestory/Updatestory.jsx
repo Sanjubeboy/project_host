@@ -9,7 +9,7 @@ const Updatestory = ({ setOpenUpdate, user }) => {
     
     const temp = JSON.parse(localStorage.getItem("user"));
     const default_img = temp.profilePic;
-    const user_id = temp.id;
+    // const user_id = temp.id;
   
     const upload = async (file) => {
       console.log(file)
